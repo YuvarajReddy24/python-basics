@@ -26,3 +26,10 @@ comment
 6. Dict (Dictionaries, Hashmaps)
 7. Sets
 """
+
+num_servers = 10 # Integer
+print(num_servers)
+CONST_PI = 2.14 # Float
+
+num_servers = 15 # Integer
+print(num_servers)
