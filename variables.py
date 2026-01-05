@@ -39,8 +39,25 @@ print(type(num_servers))
 server = "Ansible" #string
 print(type(server))
 
-is_prod = False
+is_prod = False # boolean
 print(type(is_prod))
+
+a = 10
+b = 20
+total = a + b # 30
+diff = a - b # -10
+mult = a * b # 200
+divison = b / a # 2.0
+print(divison)
+integer_division = b // a # 2
+print(integer_division)
+remainder = b % a # 0
+print(remainder)
+a = 2 
+b = 3
+power = b ** a # 9
+print(power)
+
 
 
 
