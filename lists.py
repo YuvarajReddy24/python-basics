@@ -47,3 +47,17 @@ print("After append:", servers, len(servers))
 
 servers.extend(["c", "d"])
 print("After extend:", servers, len(servers))
+print(servers.index(True))
+servers.insert(0,12)
+print(servers)
+servers.remove(True)
+print(servers)
+servers.reverse()
+print(servers)
+servers = servers[::-1]
+print(servers)
+
+servers = [1,5,7,9,4,2,3]
+#servers.sort()
+server_1 = sorted(server_1)
+print(servers, server_1)
