@@ -9,8 +9,9 @@ server_1 = servers[0]
 print("server 1 ip address :", server_1)
 
 #Slicing (start_index:end_index + 1:step_size), end_index in python is not inclusive
-simple_slice = servers[1:5:2] # [1, 1+2, 3+2, 5+2]
+simple_slice = servers[1:6:2] # [1, 1+2, 3+2, 5+2]
 print(simple_slice)
+
 
 
 
