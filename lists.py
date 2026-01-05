@@ -61,3 +61,20 @@ servers = [1,5,7,9,4,2,3]
 #servers.sort()
 servers_1 = sorted(servers)
 print(servers, servers_1)
+
+servers = ["172.10.33.25", "172.10.33.26", True, 123, 123.45,1234.56, True]
+servers_1 = servers.copy()
+servers_1.remove(123)
+print(servers, servers_1)
+
+""""
+1. Reverse a list
+2. Sort vs sorted
+3. Integer division vs floor division
+4. Shallow copy (inplace operation)
+5. Multi indexing
+6. append vs extend
+7. Mutable vs Immutable
+8. dir()
+
+"""
