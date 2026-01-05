@@ -13,5 +13,5 @@ simple_slice = servers[1:6:2] # [1, 1+2, 3+2, 5+2]
 print(simple_slice)
 
 
-
-
+#Negative_indexing
+simple_slice = servers[-1:-4]
