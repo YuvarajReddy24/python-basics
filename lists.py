@@ -59,5 +59,5 @@ print(servers)
 
 servers = [1,5,7,9,4,2,3]
 #servers.sort()
-server_1 = sorted(server_1)
-print(servers, server_1)
+servers_1 = sorted(servers)
+print(servers, servers_1)
