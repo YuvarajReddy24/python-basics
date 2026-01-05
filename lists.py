@@ -1,7 +1,7 @@
 server_1 = "172.10.33.25"
 server_2 = "172.10.33.26"
 
-servers = ["172.10.33.25", "172.10.33.26", True, 123, 123.45]
+servers = ["172.10.33.25", "172.10.33.26", True, 123, 123.45,1234.56]
 print(type(servers), servers, server_1, server_2)
 
 #python is zero indexed  programming language
