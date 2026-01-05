@@ -33,3 +33,10 @@ CONST_PI = 2.14 # Float
 
 num_servers = 15 # Integer
 print(num_servers)
+print(type(num_servers))
+
+server = "Ansible" #string
+print(type(server))
+
+
+
